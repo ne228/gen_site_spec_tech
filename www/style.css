@@ -1,0 +1,139 @@
+.my-container {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin-top: 70px;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+/* Стили для flex-контейнера */
+.links-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+/* Стили для ссылок */
+.link-item {
+  margin: 10px;
+  text-decoration: none;
+  color: #333;
+  transition: all 0.3s ease-in-out;
+}
+.list-item-icon {
+  max-width: 32px;
+  max-height: 32px;
+  margin-right: 7px;
+}
+.link-item:hover {
+  color: #007bff;
+}
+header {
+  color: black;
+}
+
+header {
+  position: absolute;
+  background-color: #2f3236;
+  margin-left: 0;
+  height: 50px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 999999;
+  color: white;
+  text-decoration: none;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: baseline;
+  vertical-align: middle;
+
+  height: 100%;
+}
+.header div {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 5px;
+  font-size: 1.1em;
+  text-align: center;
+}
+.header-logo {
+  height: 100%;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+.header div div {
+  height: 100%;
+  margin-top: auto;
+  margin-bottom: auto;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+.header div div img {
+  height: 100%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.logo {
+  width: 32px;
+  height: 32px;
+}
+
+.header-text:hover {
+  color: #e5e5e5;
+}
+a {
+  text-decoration: none; /* Отключение подчеркивания */
+  color: inherit; /* Использование цвета текста родительского элемента */
+}
+
+a:hover {
+  text-decoration: none; /* Отключение подчеркивания при наведении */
+  color: inherit; /* Использование цвета текста родительского элемента при наведении */
+}
+
+footer {
+  margin-top: 30px;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+#page-container {
+  margin-top: 50px;
+}
+.scroll-bottom {
+  top: -50px;
+}
+
+body {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.video-js {
+  max-width: 100%;
+  max-height: 500px;
+}
+
+.video-container {
+  margin-top: 30px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+h4{
+  font-size: 1.3em;
+}
+.text-container {
+  width: 90%; /* Установите желаемую ширину здесь */
+  margin: 0 auto; /* Центрируем блок по горизонтали */
+  margin-bottom:1%;
+}
